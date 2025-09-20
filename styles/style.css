@@ -64,6 +64,8 @@ a {
 }
 
 .cover {
+  padding: 0 50px;
+  min-height: 757px;
   position: relative;
   z-index: 1;
   background-image: url(../images/cover.jpg);
@@ -83,8 +85,9 @@ a {
   background-color: #000000;
 }
 
-.welcome__titels {
-  padding: 165px 50px 207px;
+.aligned__text {
+  margin-bottom: 106px;
+  padding-top: 165px;
 }
 
 .cover__title {
@@ -136,6 +139,7 @@ a {
 
 .lots {
   margin-bottom: 120px;
+  padding: 0 24px;
 }
 
 .lots__heading {
@@ -219,6 +223,7 @@ a {
 
 .about {
   margin-bottom: 180px;
+  padding: 0 24px;
 }
 .about-column {
   display: grid;
