@@ -64,10 +64,10 @@ a {
 }
 
 .cover {
-  padding: 0 50px;
-  min-height: 757px;
   position: relative;
   z-index: 1;
+  min-height: 757px;
+  padding: 0 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -103,6 +103,7 @@ a {
 }
 
 .title-position__center {
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -138,13 +139,13 @@ a {
 /* LOTS */
 
 .lots {
-  margin-bottom: 120px;
+  margin-bottom: 180px;
   padding: 0 24px;
 }
 
 .lots__heading {
-  padding-right: 40px;
   margin-bottom: 27px;
+  padding-left: 40px;
   color: #000000;
   font-weight: 700;
   font-size: 40px;
@@ -154,7 +155,6 @@ a {
 .lots-card-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 25px;
   margin-bottom: 30px;
 }
@@ -176,6 +176,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  padding: 40px 48px;
   color: #fff;
   background-color: #000;
 }
@@ -189,14 +190,19 @@ a {
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card__title {
-  padding: 48px 40px;
   color: #ffffff;
   font-weight: 700;
   font-size: 22px;
@@ -208,14 +214,13 @@ a {
 }
 
 .card-text {
-  padding: 0 40px 48px;
   color: #fff;
   font-size: 20px;
   line-height: 24px;
 }
 
 .looks__more-link {
-  padding-right: 40px;
+  padding-left: 40px;
   color: #000000;
   font-size: 20px;
   text-decoration: underline;
@@ -233,15 +238,15 @@ a {
 }
 
 .logo_container {
-  margin-top: 35px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   justify-self: center;
+  justify-content: center;
+  align-items: center;
   width: 240px;
   height: 240px;
-  background-color: #000;
+  margin-top: 35px;
   border-radius: 50%;
+  background-color: #000;
 }
 
 .logo__about-image {
@@ -274,7 +279,6 @@ a {
 /* FOOTER */
 
 .footer {
-  padding: 0 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
