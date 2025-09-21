@@ -1,1 +1,1 @@
-https://github.com/popov09/ono-tebe-nado-fd#
+https://github.com/popov09/ono-tebe-nado-fd
