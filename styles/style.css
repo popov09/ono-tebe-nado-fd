@@ -8,10 +8,6 @@ body {
   font-style: normal;
 }
 
-a {
-  color: #000000;
-  text-decoration: none;
-}
 
 /* HEADER */
 
@@ -38,6 +34,7 @@ a {
 .header__link {
   border-bottom: 1px solid #000000;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .header__link_active {
@@ -64,6 +61,7 @@ a {
 }
 
 .adress-block > a {
+  text-decoration: none;
   border-bottom: 1px solid #000000;
 }
 
@@ -71,6 +69,7 @@ a {
 /* WELCOME */
 
 .welcome {
+  min-height: 757px;
   position: relative;
   z-index: 0;
   margin-bottom: 180px;
@@ -231,6 +230,7 @@ a {
 
 .looks__more-link {
   display: block;
+  max-width: fit-content;
   margin: 30px 0 0 40px;
   font-size: 20px;
   text-decoration: underline;
@@ -314,6 +314,7 @@ a {
 .footer__list-link {
   font-size: 18px;
   border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 
 .link_active {
