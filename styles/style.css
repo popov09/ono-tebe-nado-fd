@@ -110,13 +110,13 @@ body {
 
 .aligned-text_center {
   margin-right: -30px;
-  line-height: 1;
+  line-height: 1.1;
   text-align: center;
 }
 
 .aligned-text_right {
   margin-right: -30px;
-  line-height: 1.30;
+  line-height: 1.50;
   text-align: right;
 }
 
@@ -128,7 +128,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 78px;
-  padding: 113px 0 0;
+  padding: 85px 0 0;
 }
 
 .description__text {
