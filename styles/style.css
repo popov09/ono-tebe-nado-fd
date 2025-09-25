@@ -15,7 +15,7 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 100px;
+  padding: 94px 50px 96px 50px;
 }
 
 .header-nav__list {
@@ -141,7 +141,7 @@ body {
 
 .description__button {
   border: 1px #fff solid;
-  padding: 14px 32px;
+  padding: 13px 32px;
   color: #fff;
   font-size: 22px;
   line-height: 1;
@@ -152,7 +152,7 @@ body {
 /* LOTS */
 
 .lots {
-  margin-bottom: 120px;
+  margin-bottom: 115px;
   padding: 0 24px;
 }
 
@@ -286,7 +286,7 @@ body {
 
 
 .footer {
-  margin-top: 143px;
+  margin-top: 145px;
   display: flex;
   justify-content: space-between;
   padding: 0 50px 80px 50px;
