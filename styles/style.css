@@ -152,7 +152,7 @@ body {
 /* LOTS */
 
 .lots {
-  margin-bottom: 115px;
+  margin-bottom: 120px;
   padding: 0 24px;
 }
 
@@ -286,7 +286,7 @@ body {
 
 
 .footer {
-  margin-top: 145px;
+  margin-top: 143px;
   display: flex;
   justify-content: space-between;
   padding: 0 50px 80px 50px;
